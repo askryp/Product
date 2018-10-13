@@ -1,11 +1,13 @@
 {
-  "name": "project",
+  "name": "products",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "gh-pages": "^2.0.0",
     "react-scripts": "0.9.5"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "cross-env": "^5.2.0",
     "history": "^4.6.1",
     "react": "^15.4.2",
