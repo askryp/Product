@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6d86c-4395-46d3-bbb8-6df028eeae32" name="Default" comment="new Component and files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/products/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="4" column="215" lean-forward="true" selection-start-line="4" selection-start-column="215" selection-end-line="4" selection-end-column="215" />
             </state>
           </provider>
         </entry>
@@ -57,6 +65,7 @@
         <option value="$PROJECT_DIR$/php-site/src/components/Modal/Modal.js" />
         <option value="$PROJECT_DIR$/php-site/.gitignore" />
         <option value="$PROJECT_DIR$/products/.gitignore" />
+        <option value="$PROJECT_DIR$/products/build/index.html" />
       </list>
     </option>
   </component>
@@ -1116,7 +1125,7 @@
       <path value="$PROJECT_DIR$/products/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -1141,6 +1150,19 @@
               <item name="Product" type="b2602c69:ProjectViewProjectNode" />
               <item name="Product" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Product" type="b2602c69:ProjectViewProjectNode" />
@@ -1208,7 +1230,7 @@
       <workItem from="1539106841845" duration="5045000" />
       <workItem from="1539194767862" duration="2502000" />
       <workItem from="1539443780458" duration="5099000" />
-      <workItem from="1539454277317" duration="675000" />
+      <workItem from="1539454277317" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="pack">
       <created>1538917219739</created>
@@ -1235,13 +1257,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19214000" />
+    <option name="totallyTimeSpent" value="19488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24161074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24161074" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.504698" side_tool="true" visible="true" weight="0.17521368" />
@@ -1250,7 +1272,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90402687" weight="0.0" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49932885" weight="0.32909605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49530202" visible="true" weight="0.17521368" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49530202" visible="true" weight="0.17521368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1310,6 +1332,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="4" column="215" lean-forward="true" selection-start-line="4" selection-start-column="215" selection-end-line="4" selection-end-column="215" />
         </state>
       </provider>
     </entry>
