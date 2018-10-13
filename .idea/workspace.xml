@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6d86c-4395-46d3-bbb8-6df028eeae32" name="Default" comment="new Component and files">
-      <change beforePath="$PROJECT_DIR$/products/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/asset-manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,7 +31,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="asset-manifest.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/build/asset-manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/build/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
@@ -86,6 +95,7 @@
         <option value="$PROJECT_DIR$/products/.gitignore" />
         <option value="$PROJECT_DIR$/products/build/index.html" />
         <option value="$PROJECT_DIR$/products/build/manifest.json" />
+        <option value="$PROJECT_DIR$/products/build/asset-manifest.json" />
       </list>
     </option>
   </component>
@@ -1275,7 +1285,7 @@
       <workItem from="1539106841845" duration="5045000" />
       <workItem from="1539194767862" duration="2502000" />
       <workItem from="1539443780458" duration="5099000" />
-      <workItem from="1539454277317" duration="1257000" />
+      <workItem from="1539454277317" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="pack">
       <created>1538917219739</created>
@@ -1302,7 +1312,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19796000" />
+    <option name="totallyTimeSpent" value="19943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1386,6 +1396,13 @@
     <entry file="file://$PROJECT_DIR$/products/build/static/css/main.249db646.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/products/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/products/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1393,10 +1410,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/build/manifest.json">
+    <entry file="file://$PROJECT_DIR$/products/build/asset-manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="105">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
