@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './Products.css';
 
 class Products extends Component {
-    static propTypes = {
-        element: PropTypes.object
-    };
 
     render() {
         console.log(this.props);

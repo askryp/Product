@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
+import '../Products';
+import Products from "../Products/Products";
+
 
 class App extends Component {
     constructor() {
@@ -47,7 +50,7 @@ class App extends Component {
     // };
 
     render() {
-        let element = this.state.goods;
+        let element = this.state.products;
         console.log(this.state.products);
         return (
             <div className="productList">
