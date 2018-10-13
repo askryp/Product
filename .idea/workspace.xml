@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6d86c-4395-46d3-bbb8-6df028eeae32" name="Default" comment="new Component and files">
-      <change beforePath="$PROJECT_DIR$/products/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/build/static/js/main.dc562953.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/build/static/js/main.dc562953.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/src/components/Products/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/components/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/components/App/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/products/src/components/App/App.test.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/products/src/App.js">
+        <entry file="file://$PROJECT_DIR$/products/src/components/App/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
@@ -31,11 +29,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="63">
-              <caret column="334" lean-forward="true" selection-start-column="334" selection-end-column="334" />
+              <caret column="331" selection-start-column="331" selection-end-column="331" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Products.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/src/components/Products/Products.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Products.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/src/components/Products/Products.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/src/components/Products/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -53,6 +77,14 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,6 +123,10 @@
         <option value="$PROJECT_DIR$/products/src/index.js" />
         <option value="$PROJECT_DIR$/products/src/App.js" />
         <option value="$PROJECT_DIR$/products/build/index.html" />
+        <option value="$PROJECT_DIR$/products/src/components/Products/App.css" />
+        <option value="$PROJECT_DIR$/products/src/components/Products/App.js" />
+        <option value="$PROJECT_DIR$/products/src/components/Products/index.js" />
+        <option value="$PROJECT_DIR$/products/src/components/Products/Products.js" />
       </list>
     </option>
   </component>
@@ -1151,8 +1187,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
+    <option name="x" value="-40" />
+    <option name="y" value="-5" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
   </component>
@@ -1180,13 +1216,30 @@
               <item name="Product" type="b2602c69:ProjectViewProjectNode" />
               <item name="Product" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Product" type="b2602c69:ProjectViewProjectNode" />
               <item name="Product" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Products" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1198,12 +1251,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/products" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../academy-master/academy-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aleshka\PhpstormProjects\Product\products\src\components\App" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1248,7 +1306,7 @@
       <workItem from="1539106841845" duration="5045000" />
       <workItem from="1539194767862" duration="2502000" />
       <workItem from="1539443780458" duration="5099000" />
-      <workItem from="1539454277317" duration="1971000" />
+      <workItem from="1539454277317" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="pack">
       <created>1538917219739</created>
@@ -1275,7 +1333,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20510000" />
+    <option name="totallyTimeSpent" value="22811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1383,7 +1441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/products/src/App.js">
+    <entry file="file://$PROJECT_DIR$/products/src/components/App/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
@@ -1393,12 +1451,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/products/src/components/Products/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/src/components/Products/App.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/products/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
-          <caret column="334" lean-forward="true" selection-start-column="334" selection-end-column="334" />
+          <caret column="331" selection-start-column="331" selection-end-column="331" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/src/components/Products/Products.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/src/components/Products/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/src/components/Products/Products.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
