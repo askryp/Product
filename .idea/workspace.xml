@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fe6d86c-4395-46d3-bbb8-6df028eeae32" name="Default" comment="new Component and files">
-      <change beforePath="$PROJECT_DIR$/products/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/products/build/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,13 +22,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/products/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="4" column="215" lean-forward="true" selection-start-line="4" selection-start-column="215" selection-end-line="4" selection-end-column="215" />
+            <state>
+              <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="92" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/build/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.249db646.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/build/static/css/main.249db646.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/build/favicon.ico">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -66,6 +85,7 @@
         <option value="$PROJECT_DIR$/php-site/.gitignore" />
         <option value="$PROJECT_DIR$/products/.gitignore" />
         <option value="$PROJECT_DIR$/products/build/index.html" />
+        <option value="$PROJECT_DIR$/products/build/manifest.json" />
       </list>
     </option>
   </component>
@@ -1168,6 +1188,31 @@
               <item name="Product" type="b2602c69:ProjectViewProjectNode" />
               <item name="Product" type="462c0819:PsiDirectoryNode" />
               <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="main.249db646.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Product" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Product" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -1230,7 +1275,7 @@
       <workItem from="1539106841845" duration="5045000" />
       <workItem from="1539194767862" duration="2502000" />
       <workItem from="1539443780458" duration="5099000" />
-      <workItem from="1539454277317" duration="949000" />
+      <workItem from="1539454277317" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="pack">
       <created>1538917219739</created>
@@ -1257,7 +1302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19488000" />
+    <option name="totallyTimeSpent" value="19796000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1335,10 +1380,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/products/build/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/build/static/css/main.249db646.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/products/build/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="4" column="215" lean-forward="true" selection-start-line="4" selection-start-column="215" selection-end-line="4" selection-end-column="215" />
+        <state>
+          <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/build/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
